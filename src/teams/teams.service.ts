@@ -1,5 +1,5 @@
 import { Injectable, Inject } from '@nestjs/common'
-import { mockData, PG_CONNECTION } from '../constants'
+import { PG_CONNECTION } from '../constants'
 import { TeamsDto } from './teams.dto/teams.dto'
 
 @Injectable()
